@@ -5,3 +5,9 @@ before_install:
 install:
     - bash install.sh
     - ls ./lib
+script:
+    - file lib/libglfw.so
+    - file lib/libportaudio.so
+    - file lib/libSDL2-2.0.so.0
+    - file lib/libSDL2_mixer.so
+    - file lib/libSDL2_ttf.so
