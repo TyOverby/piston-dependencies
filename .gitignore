@@ -1,0 +1,14 @@
+bin
+glfw
+include
+lib
+SDL2-2.0.0
+share
+portaudio
+SDL2_ttf-2.0.12
+SDL2_mixer-2.0.0
+*.tar.gz
+*.tar.gz.*
+*.tgz
+*.swp
+*.swo
