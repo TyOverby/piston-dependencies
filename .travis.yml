@@ -4,3 +4,4 @@ before_install:
     - sudo apt-get install -y cmake libXxf86vm-dev libxml2
 install:
     - bash install.sh
+    - ls ./lib
