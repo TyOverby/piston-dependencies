@@ -7,7 +7,7 @@ install:
     - export PORTAUDIO="true"
     - export SDL2="true"
     - export SDL2_TTF="true"
-    - export SDL_MIXSER="true"
+    - export SDL_MIXER="true"
     - bash install.sh
     - ls ./lib
 script:
