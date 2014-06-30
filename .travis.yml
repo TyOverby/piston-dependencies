@@ -3,11 +3,11 @@ before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -y cmake libXxf86vm-dev libxml2
 install:
-    - GLFW="true"
-    - PORTAUDIO="true"
-    - SDL2="true"
-    - SDL2_TTF="true"
-    - SDL_MIXSER="true"
+    - export GLFW="true"
+    - export PORTAUDIO="true"
+    - export SDL2="true"
+    - export SDL2_TTF="true"
+    - export SDL_MIXSER="true"
     - bash install.sh
     - ls ./lib
 script:
