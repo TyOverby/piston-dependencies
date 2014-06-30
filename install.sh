@@ -32,5 +32,6 @@ fi
 
 # $OUT_DIR is provided to us by cargo
 if [ -d ./lib/ ]; then
-    cp -r lib/* $OUT_DIR
+    cp -r ./lib/* $OUT_DIR
+    rm -rf ./lib
 fi
