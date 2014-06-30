@@ -4,4 +4,9 @@ name = "piston-dependencies"
 version = "0.0.0"
 authors = ["TyOverby <ty@pre-alpha.com>"]
 
-build = "bash ./compile.sh"
+build = "bash ./install.sh"
+
+[[lib]]
+
+name = "foo"
+path = "foo.rs"

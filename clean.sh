@@ -13,4 +13,6 @@ rm -rf \
     SDL2_ttf-2.0.12 \
     SDL2_ttf-2.0.12.tar.gz \
     SDL2_mixer-2.0.0 \
-    SDL2_mixer-2.0.0.tar.gz
+    SDL2_mixer-2.0.0.tar.gz \
+    *gz.* \
+    target
