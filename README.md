@@ -9,7 +9,7 @@ features.
 * Passing environment variables to packages
 * Specifying an order for build packages
 
-##
+## Description
 
 A Cargo package that compiles the raw C and C++ libraries that various Piston Projects depend on.
 
