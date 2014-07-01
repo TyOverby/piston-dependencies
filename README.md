@@ -7,7 +7,8 @@ For this package to be fully functional, we will require the folling Cargo
 features.
 
 * Passing environment variables to packages
-* Specifying an order for build packages
+* ~~Specifying an order for build packages~~
+* Specifying C librar files to link
 
 ## Description
 
